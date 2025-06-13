@@ -18,7 +18,8 @@ while True :
         valor = float(input("Digite o valor do depósito =>"))
         if valor > 0 :
             saldo += valor
-            extrato += f"Deposito no valor de R${valor:.2f} realizado com sucesson.\n"
+            extrato += f"Depósito: R${valor:.2f}\n"
+            print(f"Deposito no valor de R${valor:.2f} realizado com sucesso.\n")
         else:
             print("Erro:Valor inválido.")
     elif opcao == "2" :
@@ -36,12 +37,13 @@ while True :
             saldo -= valor
             limite -= valor
             saques += 1
+            extrato += f"Depósito: R${valor:.2f}\n"
             print(f"Saque no valor de R${valor:.2f} realizado com sucesso.\n")
         else:
             print("Erro:Valor inválido.")
     elif opcao == "3":
         print("EXTRATO\n")
-        print(extrato if extrato else "Não foram realizadas movimentações.")
+        print("Não foram realizadas movimentações." if not extrato else extrato)
         print(f"Saldo disponível: R${saldo:.2f}. Limite disponível: R${limite:.2f}")
     elif opcao == "4":
         break
