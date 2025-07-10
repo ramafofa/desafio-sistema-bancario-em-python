@@ -7,9 +7,9 @@ Trata-se de um sistema bancário básico, feito para rodar no terminal, onde é 
 
 - 📥 Depósito com verificação de valor válido.
 - 💸 Saque com:
-  - Limite máximo por saque (R$500).
-  - Limite de saques diários (3 por dia).
-  - Verificação de saldo suficiente.
+- Limite máximo por saque (R$500).
+- Limite de saques diários (3 por dia).
+- Verificação de saldo suficiente.
 - 📄 Extrato com histórico de movimentações e saldo atual.
 - 🧠 Lógica simples usando condicionais, laços e manipulação de strings.
 
@@ -18,13 +18,16 @@ Trata-se de um sistema bancário básico, feito para rodar no terminal, onde é 
 Eu me **diverti MUITO** fazendo esse sisteminha! Minha primeira linguagem foi Javascript,e Python tá sendo um **refresco** pra minha cabeça, pois é muito mais limpa visualmente e fácil de aprender 😮‍💨. 
 Além de praticar lógica, também entendi melhor como funciona a estrutura de um código interativo com o usuário.
 
+## Atualização 🪼
+- Projeto atualizado em 10/07/2025
+- Código foi otimizado com funções 
+- Erros de sintaxe foram corrigidos
+
 ## 🛩️ Próximos Passos
 
 Esse é só o começo! Minha intenção é:
 
 - Criar uma **interface gráfica** utilizando **HTML e CSS**, deixando tudo mais bonito e intuitivo.
-- Explorar um pouco de **JavaScript**, pra tornar a aplicação ainda mais interativa no navegador.
-- Modularizar o código em funções e separar responsabilidades, pra deixá-lo mais escalável.
 
 ## 🐍 Tecnologias Usadas
 
